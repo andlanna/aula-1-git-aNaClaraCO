@@ -1,0 +1,44 @@
+Exercícios
+
+1. Informe o propósito e os efeitos de cada um dos comandos git listados abaixo:
+
+git init
+    Iniciar um repositório e criar uma estrutura de arquivos do repositório dentro de um diretório;
+
+git clone
+    Consegue iniciar um projeto existente a partir de um repositório remoto, seja por meio de um 
+    protocolo git ou de um protocolo ssh;
+
+git branch
+    Um dos comandos de gerenciamento de branches, serve para listar todas as branches existentes do 
+    repositório;
+
+git checkout
+    Também usado para gerenciar branches, pode ser para alterar para uma branch específica
+    (git checkout branch) ou, ainda, para criar uma branch nova e migrar para a mesma 
+    (git checkout -b branch);
+
+git fetch
+    Serve para atualizar o repositório local, de forma a buscar alterações mais recentes na branch 
+    armazenadas no repositório remoto;
+
+git pull
+    Busca as alterações no repositório remoto, mergindo-as com o repositório local;
+
+git add 
+    Adicionar mudanças no diretório;
+
+git commit
+    Confirmar mudanças no repositório local, o que vai abrir o editor de texto para adicionar a 
+    mensagem de commit;
+
+git push
+    Usado para enviar o conteúdo de um repositório local para um repositório remoto.
+
+2.Os comandos git pull e git fetch são muito parecidos, mas os resultados sobre o repositório são
+diferentes. Diferencie os comandos com base nos resultados produzidos por eles.
+
+    Ambos trazem o histórico de modificações para o repositório local. O fetch consegue trazer o histórico 
+    de mudanças de um repositório remoto para o local, com a opção de não implementar nada. Já o comando 
+    pull traz as informações do repositório remoto para o local, de maneira equivalente ao fetch, porém 
+    o que for alterado no remoto será implementado no diretório de trabalho local.
